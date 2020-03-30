@@ -1,0 +1,47 @@
+.container 
+{
+    width: 60%;
+    float: right;
+    margin-right: 20px;
+}
+
+body 
+{
+    background: rgb(77,182,190);
+    background: radial-gradient(circle, rgba(77,182,190,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+.col-sm
+{
+    margin-top: 2em;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    color: white;
+    margin-left: 10px;
+
+}
+
+#col-sm1
+{
+    background-color: rgb(201, 143, 56);
+}
+
+#col-sm2
+{
+    background-color: rgb(37, 86, 190);
+}
+
+#col-sm3
+{
+    background-color: rgb(192, 45, 75);
+}
+
+footer
+{
+    padding-top: 3em;
+    width: auto;
+    margin-left: 20px;
+    color: white;
+}
