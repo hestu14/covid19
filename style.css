@@ -11,36 +11,44 @@ body
     background: radial-gradient(circle, rgba(77,182,190,1) 0%, rgba(148,187,233,1) 100%); 
 }
 
-.col-sm
+.col
 {
     margin-top: 2em;
-    width: 25%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    border-radius: 25px;
-    color: white;
-    margin-left: 10px;
-
+    border-radius: 35px;
 }
 
 #col-sm1
 {
     background-color: rgb(201, 143, 56);
+    color: white;
 }
 
 #col-sm2
 {
     background-color: rgb(37, 86, 190);
+    color: white;
 }
 
 #col-sm3
 {
     background-color: rgb(192, 45, 75);
+    color: white;
 }
+
+#col-sm4
+{
+    background-color: rgb(99, 84, 84);
+    color: white;
+}
+
 
 footer
 {
-    padding-top: 3em;
+    width: 40%;
+    padding-top: 5em;
     width: auto;
     margin-left: 20px;
     color: white;
