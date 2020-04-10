@@ -1,9 +1,39 @@
+.sidebar
+{
+    width: 40%;
+    padding-top: 5em;
+    width: auto;
+    margin-left: 20px;
+    color: white;
+    float: left;
+}
+
+.clear1
+{
+    clear: left;
+}
+
 .container 
 {
     width: 60%;
     float: right;
     margin-right: 20px;
+    position: center;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin: auto;
+    }
+
+  }
+
 
 body 
 {
@@ -44,12 +74,3 @@ body
     color: white;
 }
 
-
-footer
-{
-    width: 40%;
-    padding-top: 5em;
-    width: auto;
-    margin-left: 20px;
-    color: white;
-}
