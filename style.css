@@ -21,7 +21,7 @@
     position: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 760px) {
     .container {
         width: 100%;
         margin: auto;
