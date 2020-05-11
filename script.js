@@ -17,13 +17,13 @@ let months = [
 let bulan = months[b];
 
 $("#date").html(d.getDate() + " " + bulan + " " + d.getFullYear());
-    $.ajax({url: "https://api.kawalcorona.com/indonesia/", success: function(result){
-    var positif =  result[0].positif;
-    var positif2 = positif.split(",");
-    var positif3 = positif2.join("");
+    $.ajax({url: "https://kawalcovid19.harippe.id/api/summary", success: function(result){
+    var positif =  result.confirmed.value;
+    // var positif2 = positif.split(",");
+    // var positif3 = positif2.join("");
 
-    var sembuh = result[0].sembuh;
-    var meninggal = result[0].meninggal;
+    var sembuh = result.recovered.value;
+    var meninggal = result.deaths.value;
 
     $("#terjangkit").html(positif);
     $("#sembuh").html(sembuh);
