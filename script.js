@@ -29,7 +29,7 @@ $("#date").html(d.getDate() + " " + bulan + " " + d.getFullYear());
     $("#sembuh").html(sembuh);
     $("#meninggal").html(meninggal);
     
-    let rate = meninggal / positif3 * 100;
+    let rate = meninggal / positif * 100;
     let rate2 = rate.toFixed(2);
     $("#rate").html(rate2);
 
